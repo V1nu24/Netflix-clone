@@ -1,0 +1,280 @@
+/* :root{
+  --primary-color:#e50914;
+  --dark-color: #141414;
+  --light-color:#f4f4f4;
+} */
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica,sans-serif;
+}
+
+logo img{
+  height: 35px;
+  width: 100px;
+}
+
+.header{
+  padding: 20px 50px;
+  position: relative;
+  z-index: 10;
+}
+
+.wrapper{
+  background-image: url(login1.jpg);
+  height: 100vh;
+  background-image: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+}
+
+.wrapper::before{
+  content: '';
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.login__body{
+  padding: 60px;
+  z-index: 90;
+  position: relative;
+  max-width: 450px;
+  height: 550px;
+  margin-left: 37%;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.login__body h2{
+  font-size: 32px;
+  color: #fff;
+  margin-top: 0;
+}
+
+.login__body input{
+  height: 50px;
+  width: 100%;
+  border-radius: 3px;
+  color: #fff;
+  background: #333;
+  border: 1px solid #333;
+  padding-left: 15px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.input__wrap{
+  margin-bottom: 20px;
+}
+
+.login__body button{
+  height: 50px;
+  width: 100%;
+  color: #fff;
+  background: #e50914;
+  font-size: 16px;
+  border: 1px solid #e50914;
+}
+
+.support{
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 10px;
+
+}
+
+.support input{
+  width: 15px;
+  height: 15px;
+}
+
+.remember{
+  display: flex;
+  align-items: center;
+}
+
+.remember span{
+  margin-right: 10px;
+  height: 25px;
+}
+
+/* .login__facebook{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: #737373;
+} */
+
+/* .login__facebook img{
+  width: 20px;
+  height: 20px;
+} */
+
+/* .login__facebook span{
+  margin-right: 10px;
+  font-size: 13px;
+}
+
+.login__facebook span a{
+text-decoration: none;
+color: #737373;
+
+
+}*/
+
+.login__footer{
+  margin-top: 60px;
+}
+
+.sign__up{
+  color: #737373;
+  font-size: 16px;
+}
+
+.sign__up{
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.terms{
+  color: #737373;
+  font-size: 13px;
+}
+
+.terms a{
+  text-decoration: none;
+  color: #0071eb;
+}
+
+
+
+/* body{
+  font-family: Arial, Helvetica,sans-serif;
+  background: #000000;
+  color: #999999;
+}
+
+ul{
+  list-style: none;
+}
+
+h1,h2,h3,h4{
+  color: #ffffff;
+}
+
+h3{
+  font-weight: lighter;
+}
+
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p{
+  margin: 0.5rem 0;
+  font-weight: bold;
+  color: #ffffff;
+
+}
+
+img{
+  width: 50%;
+}
+
+.showcase{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: url("1.jpg") no-repeat center/cover;
+}
+
+.showcase::after{
+  content: "";
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 120px 100px 250px #000000 , inset -150px -100px 250px #000000;
+}
+
+
+.showcase-top{
+  position: relative;
+  z-index: 2;
+  height: 90px;
+
+}
+
+.showcase-top img{
+  width: 140%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(40% ,  -50%);
+} */
+
+/* .showcase-top a{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-60%, -50%);
+}
+
+.showcase-content{
+  position: relative;
+  margin: 0 26%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 9rem;
+}
+
+.showcase-content h1{
+  font-weight: 700;
+  font-size: 64px;
+  margin: 0 30px;
+  max-width: 800px;
+  line-height: 74.5px;
+  }
+
+  .showcase-content h3{
+    color: white;
+    font-size: 25px;
+    margin: 16px 0;
+  }
+
+  .showcase-content p{
+    font-size: 19.2px;
+    font-weight: 300;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+   }
+
+   .showcase-content input{
+     position: absolute;
+     left: 0;
+     bottom: -8vh;
+     width: 454px;
+     height: 3rem;
+     font-size: 1rem;
+     padding-left: 0.5rem;
+   } */
